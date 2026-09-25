@@ -12,7 +12,7 @@ app.MapGet("/", () => new
 
 app.MapGet("/health", () => new
 {
-    status = "Healthy V2"
+    status = "Healthy V3"
 });
 
 app.Run();
